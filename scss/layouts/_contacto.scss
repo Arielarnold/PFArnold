@@ -1,0 +1,35 @@
+    .contacto-fondo{
+    background-color: none;
+    padding: 0%;
+    color: $main-color;
+    }
+    
+    .redes{
+    display: flex;
+    width: 100%;
+    padding: 40px;
+    margin-bottom: 40px;
+    justify-content:space-evenly;
+    font-size: xx-large;
+    color: $main-color;
+    transition: transform 0.5s ease-in-out;
+
+    &i:hover{
+    color:$celeste-color;
+    font-size: 150%;
+    }
+    }
+    
+    .iframe{
+    width: 100%;
+    padding-left: 440px;
+    margin-bottom: 70px;
+    box-shadow: 2px 2px 2px 2px $celeste-color;
+    }
+    
+    @media only screen and (max-width:480px){
+    .iframe{
+    padding-left: 0%;
+    box-shadow:none;
+    }
+    }

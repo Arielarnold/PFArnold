@@ -1,0 +1,146 @@
+.nosotross{
+    color: $main-color;
+    }
+    
+    .quienessomos{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    &img{
+    width: 50%;
+    height: 250px;
+    object-fit: cover;
+    p{
+        width: 50%;
+        text-align:justify;
+        color:$main-color;
+    }
+    }
+    }
+    
+    .mision{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    }
+    
+    .mision img{
+    width: 50%;
+    height: 250px;
+    object-fit: cover;
+    &p{
+    width: 50%;
+    text-align:justify;
+    color:$main-color;
+    }
+    }
+
+    .textonosotros{
+    padding-bottom: 60px;
+    }
+    
+    .textoconfian{
+    padding-bottom: 60px;
+    color:$main-color;
+    }
+    
+    #confian{
+    display: grid;
+    width: 100%;
+    grid-template-columns: 250px 250px 250px;
+    grid-template-rows: 250px 250px 250px;
+    justify-content: center;
+    border: 2px solid $main-color;
+    padding: 20px;
+    }
+    
+    .confian {
+    display: grid;
+    grid-template-columns:repeat(3, 300px);
+    padding-bottom:60px;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    }
+    
+    .logoss {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    border: 1px solid $main-color;
+    border-radius: 1px;
+    overflow:auto;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    &img {
+    width: 50%;
+    height:fit-content;
+    display: flex;
+    object-fit:cover;
+    justify-content: center;
+    align-content: center;
+    justify-content: space-around;
+    }
+    }
+
+    @media only screen and (max-width:480px){
+    .quienessomos{
+    display:inline;
+    width: 100%;
+    height: auto;
+    padding-left: 0%;
+    justify-content: center;
+    &img{
+    width: 100%;
+    height: 100%;
+    padding-left: 0%;
+    justify-content: center;
+    align-items: center;
+    p{
+        width: 100%;
+        margin: 0%;
+        text-align:center;
+    }
+    }
+    }
+    
+    .mision{
+    display:inline;
+    width: 100%;
+    height: auto;
+    padding-left: 100px;
+    justify-content: center;
+    &img{
+    width: 100%;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    p{
+        width: 100%;
+        margin: 0%;
+        text-align: center;
+    }
+    }
+    }
+    
+    
+    .textonosotros{
+    padding-bottom: 0;
+    }
+    
+    .confian {
+    display: grid;
+    grid-template-columns:repeat(3, 100px);
+    justify-content: start;
+    padding-left: 20px;
+    }
+    
+    .logoss {
+    width: 130%;
+    margin: 0%;
+    padding: 0%;
+    justify-content: center;
+    }
+    }
+    

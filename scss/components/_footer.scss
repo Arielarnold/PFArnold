@@ -1,0 +1,42 @@
+    
+    footer{
+    background-color: #051D43;
+    width: 100%;
+    }
+    
+    footer h6{
+    color:#4ebbfa;
+    padding: 10px;
+    margin: 3px;
+    }
+    
+    .marcass {
+    width: 100%;
+    height: auto;
+    padding-top: 30px;
+    margin: 0%;
+    display: flex;
+    justify-content: center;
+    }
+    
+    .marcas img{
+    width: auto;
+    height: 90px;
+    object-fit: cover;
+    }
+    
+    @media only screen and (max-width:480px){
+    .marcas {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    object-fit: cover;
+    }
+        
+    .marcas img {
+    width: auto;
+    height: 50px;
+    object-fit: cover;
+    }
+    }
