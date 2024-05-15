@@ -13,12 +13,13 @@
     font-size: xx-large;
     color: $main-color;
     transition: transform 0.5s ease-in-out;
-
-    &i:hover{
+    }
+    
+    .redes i:hover{
     color:$celeste-color;
     font-size: 150%;
     }
-    }
+    
     
     .iframe{
     width: 100%;
