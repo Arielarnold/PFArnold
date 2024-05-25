@@ -32,8 +32,7 @@ header{
     }
     
     h1{
-    
-    &p{
+    &-p{
     color: $main-color;
     padding: 40px;
     margin: 40px;
@@ -111,7 +110,7 @@ header{
     object-fit: cover;
     }
     }
-
+    
     .ar{
     width: 100%;
     height: 50%;

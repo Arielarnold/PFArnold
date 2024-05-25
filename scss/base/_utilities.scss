@@ -1,0 +1,8 @@
+@mixin flex-p($disp, $wid, $pad, $just){
+    display: $disp;
+    width: $wid;
+    padding: $pad;
+    justify-content: $just;
+}
+
+/*mixin utilizado en contaco.scss*/

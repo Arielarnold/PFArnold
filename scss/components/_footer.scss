@@ -1,15 +1,14 @@
     
     footer{
-    background-color: #051D43;
+    background-color: $main-color;
     width: 100%;
-    }
-    
-    footer h6{
+    h6{
     color:#4ebbfa;
     padding: 10px;
     margin: 3px;
     }
-    
+}
+
     .marcass {
     width: 100%;
     height: auto;
@@ -32,11 +31,11 @@
     flex-direction: column;
     justify-content: center;
     object-fit: cover;
-    }
         
-    .marcas img {
+    img {
     width: auto;
     height: 50px;
     object-fit: cover;
     }
     }
+}

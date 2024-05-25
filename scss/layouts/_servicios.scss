@@ -1,74 +1,69 @@
 .servicioss{
-    color: #051D43;
+    color: $main-color;
     }
     
     .cctv{
     display: flex;
     align-items: center;
     gap: 20px;
-    }
-    
-    .cctv img{
+        img{
     width: 50%;
     height: 250px;
     object-fit: cover;
     padding-left: 20px;
     }
     
-    .cctv p{
+    & p{
     width: 50%;
     text-align:justify;
-    color:#051D43;
+    color:$main-color;
     }
-    
+}
+
     .alarmas{
     display: flex;
     align-items: center;
     gap: 20px;
-    }
-    
-    .alarmas img{
+    img{
     width: 46%;
     height: 250px;
     object-fit: cover;
     }
     
-    .alarmas p{
+    & p{
     width: 50%;
     text-align:justify;
-    color:#051D43;
+    color:$main-color;
     }
-    
+}
+
     .cercos{
     display: flex;
     align-items: center;
     gap: 20px;
-    margin-bottom: 70px;
-    }
-    
-    .cercos img{
+    margin-bottom: 70px;    
+    img{
     width: 50%;
     height: 250px;
     object-fit: cover;
     padding-left: 20px;
     }
     
-    .cercos p{
+    & p{
     width: 50%;
     text-align:justify;
-    color:#051D43;
+    color:$main-color;
     }
-    
+}
+
     @media only screen and (max-width:480px){
     .cctv{
     display:inline;
     width: 100%;
     height: auto;
     padding-left: 0%;
-    justify-content: center;
-    }
-    
-    .cctv img{
+    justify-content: center;    
+    img{
     width: 100%;
     height: 100%;
     padding-left: 0%;
@@ -76,12 +71,12 @@
     align-items: center;
     }
     
-    .cctv p{
+    & p{
     width: 100%;
     margin: 0%;
     text-align:center;
     }
-
+    }
 
 
     .alarmas{
@@ -89,22 +84,20 @@
     width: 100%;
     height: auto;
     padding-left: 100px;
-    justify-content: center;
-    }
-    
-    .alarmas img{
+    justify-content: center;    
+    img{
     width: 100%;
     height: 200px;
     justify-content: center;
     align-items: center;
     }
     
-    .alarmas p{
+    & p{
     width: 100%;
     margin: 0%;
     text-align: center;
     }
-    
+}
 
     .cercos{
     display:inline;
@@ -112,20 +105,20 @@
     height: auto;
     padding-left: 0%;
     justify-content: center;
-    }
+
     
-    .cercos img{
+    img{
     width: 100%;
     height: 350px;
     justify-content: center;
     align-items: center;
     }
     
-    .cercos p{
+    & p{
     width: 100%;
     margin: 0%;
     text-align: center;
     padding-bottom: 50px;
     }
     }
-    
+}

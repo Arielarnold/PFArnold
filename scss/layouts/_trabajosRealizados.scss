@@ -1,5 +1,5 @@
 .realizadoss{
-    color: #051D43;
+    color: $main-color;
     }
     
     .galeriafotos {
@@ -13,23 +13,21 @@
     .fotos {
     width: 100%;
     height: 500px;
-    border: 1px solid #051D43;
+    border: 1px solid $main-color;
     border-radius: 1px;
     overflow:hidden;
-    }
-    
-    .fotos img {
+        img {
     width: 100%;
     height: 100%;
     object-fit:cover;
     transition: transform 0.3s ease-in-out;
-    }
-    
-    .fotos img:hover{
+        &:hover{
     transform: scale(1.1);
     }
+}
+}
     
-    
+
     @media only screen and (max-width:480px){
     .galeriafotos{
     grid-template-columns: repeat(1, 1fr);

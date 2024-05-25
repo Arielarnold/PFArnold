@@ -5,21 +5,17 @@
     }
     
     .redes{
-    display: flex;
-    width: 100%;
-    padding: 40px;
+    @include flex-p(flex, 100%, 40px, space-evenly);
     margin-bottom: 40px;
-    justify-content:space-evenly;
+
     font-size: xx-large;
     color: $main-color;
     transition: transform 0.5s ease-in-out;
-    }
-    
-    .redes i:hover{
+        i:hover{
     color:$celeste-color;
     font-size: 150%;
     }
-    
+}
     
     .iframe{
     width: 100%;
